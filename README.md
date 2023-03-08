@@ -7,4 +7,4 @@ A place for kids to sell their homemade products. The Kidz Store serves as a com
 
 
 # Fixes:
-    -error page: not displaying custom buton. 
+    -error page: not displaying custom button. 
