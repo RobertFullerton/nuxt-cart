@@ -23,5 +23,7 @@
 
 # Demo Site
 
+https://nuxt-cart.netlify.app/
+
 
     
