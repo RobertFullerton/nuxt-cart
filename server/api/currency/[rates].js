@@ -1,0 +1,16 @@
+export default defineEventHandler(async (event) => {
+
+    const { rates } = event.context.params
+
+    //exposing api key to server
+    const { currencyKey } = useRuntimeConfig()
+
+    const uri = `https://api.currencyapi.com/v3/latest?&apikey=${currencyKey}&currencies=${rates}`
+
+    
+    //displaying data
+    const { data } = await $fetch(uri)
+    
+    return {data}
+
+});

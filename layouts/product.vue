@@ -2,7 +2,7 @@
   <div>
     <header class="shadow-sm bg-white">
       <nav class="container mx-auto p-4">
-        <NuxtLink to="/products" class="font-bold">The Kidz Store</NuxtLink>
+        <NuxtLink to="/products" class="font-bold">Nuxt-Cart Shop</NuxtLink>
       </nav>
     </header>
 
@@ -26,6 +26,6 @@
 
 <style scoped>
 .router-link-exact-active {
-  color: greenyellow;
+  color: green;
 }
 </style>

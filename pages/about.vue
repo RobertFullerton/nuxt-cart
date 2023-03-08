@@ -11,9 +11,7 @@
 </template>
 
 <script setup>
-
-const { data } = await useFetch("/api/routes");
-
+const { data } = await useFetch("/api/currency/USD");
 </script>
 
 <style scoped>
